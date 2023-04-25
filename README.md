@@ -30,8 +30,7 @@ Naively, we might try to max out the red, green and blue values, but this gives 
 
 The reason for this is that the RGB color space is not perceptually uniform. This means that equal changes in the RGB values do not correspond to equal changes in the perceived brightness of the color. This is mainly due to the [spectral response of the three types of cone cells in the human eye](https://www.physics.utoronto.ca/~jharlow/cones.html). 
 
-![Relative sensitivity curves for the three types of cones log vertical scale, cone spectral curves from "On the derivation of the foveal receptor primaries" by J.J. Vos and P.L. Walraven (1971) Vision Research 11, 799-818.](https://www.physics.utoronto.ca/~jharlow/conesens1.gif "Relative sensitivity curves for the three types of cones log vertical scale, cone spectral curves from "On the derivation of the foveal receptor primaries" by J.J. Vos and P.L. Walraven (1971) Vision Research 11, 799-818.
-")
+![Relative sensitivity curves for the three types of cones log vertical scale, cone spectral curves from "On the derivation of the foveal receptor primaries" by J.J. Vos and P.L. Walraven (1971) Vision Research 11, 799-818.](https://www.physics.utoronto.ca/~jharlow/conesens1.gif)
 
 
 ![Slide 02](./cspace-02-Lab.jpg)
