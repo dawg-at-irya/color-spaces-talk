@@ -12,12 +12,13 @@ Supongamos que queremos escribir un texto rojo, verde, y azul. Queremos que el r
 
 ## Links
 
-* [Color model wikipedia page](https://en.wikipedia.org/wiki/Color_model)
 * [RGB wikipedia page](https://en.wikipedia.org/wiki/RGB_color_space)
+* [Color model wikipedia page](https://en.wikipedia.org/wiki/Color_model)
+* [Spectral sensitivity wikipedia page](https://en.wikipedia.org/wiki/Spectral_sensitivity)
+* [Wavelength sensitivity of cones (U. Toronto)](https://www.physics.utoronto.ca/~jharlow/cones.html)
 * [CIELab wikipedia page](https://en.wikipedia.org/wiki/CIELAB_color_space)
 * [HSLuv online visual conversion tool](https://www.hsluv.org/)
 * [CIELuv wikipedia page](https://en.wikipedia.org/wiki/CIELUV)
-
 
 ## Slides
 
