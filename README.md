@@ -10,6 +10,15 @@ Suppose we want to write some red, green, and blue text. We want the red, green 
 
 Supongamos que queremos escribir un texto rojo, verde, y azul. Queremos que el rojo, el verde y el azul tengan el mismo brillo, para que el texto sea fácil de leer. Mostraré por qué esto es difícil de hacer en el espacio de color RGB, y cómo los espacios de color perceptualmente uniformes, como CIE L\*a\*b\* y HSLuv, pueden ayudar.
 
+## Links
+
+* [Color model wikipedia page](https://en.wikipedia.org/wiki/Color_model)
+* [RGB wikipedia page](https://en.wikipedia.org/wiki/RGB_color_space)
+* [CIELab wikipedia page](https://en.wikipedia.org/wiki/CIELAB_color_space)
+* [HSLuv online visual conversion tool](https://www.hsluv.org/)
+* [CIELuv wikipedia page](https://en.wikipedia.org/wiki/CIELUV)
+
+
 ## Slides
 
 ![Slide 01](./cspace-01-RGB.jpg)
@@ -19,6 +28,8 @@ Supongamos que queremos escribir un texto rojo, verde, y azul. Queremos que el r
 ![Slide 05](./cspace-05-HSLuv.jpg)
 ![Slide 06](./cspace-06-HSLuv.jpg)
 ![Slide 07](./cspace-07-HSLuv.jpg)
+
+
 
 
 
