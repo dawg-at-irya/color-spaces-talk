@@ -34,11 +34,35 @@ The reason for this is that the RGB color space is not perceptually uniform. Thi
 
 
 ![Slide 02](./cspace-02-Lab.jpg)
+
+We can improve matters by using a perceptually uniform color space, such as CIE L\*a\*b\*. In this color space, equal changes in the L\* value correspond to equal changes in the perceived brightness of the color.
+
+In this example, I have set the L\* value to 50 while keeping the a\* and b\* values at the same value as in the previous example. This gives us a red, green and blue that are equally bright, and therefore easy to read. 
+
 ![Slide 03](./cspace-03-Lab.jpg)
+
+We can also increase the contrast by using darker colors (L\* = 33) against the bright background, and brighter colors (L\* = 67) against the dark background.
+
+BUT, the brighter blue looks a bit weird, more like purple. This is because the L\*a\*b\* color space is not perceptually uniform in the a\* and b\* directions.
+
 ![Slide 04](./cspace-04-HSLuv.jpg)
+
+We can try to improve matters by using a color space that has better uniformity in all three dimensions, such as those based on CIE Luv. I am using a cylindrical polar coordinate variant called HSLuv, which is particularly easy to work with and has a nice online visual conversion tool. In the HSLuv color space, H is the hue, which is given as an angle between 0 and 360 degrees, S is the saturation, which is given as a percentage between 0 and 100, and L is the lightness, which is given as a percentage between 0 and 100
+
+In this example I have fixed the angle between the red, green and blue colors to 120 degrees, and I have set the saturation to 100%. 
+
 ![Slide 05](./cspace-05-HSLuv.jpg)
+
+We can get slightly better results by relaxing the requirement that the hues should be equally spaced. 
+But at this point, we are getting diminishing returns. 
+
 ![Slide 06](./cspace-06-HSLuv.jpg)
+
+We can apply the idea to other triplets of colors. Here are the secondary colors, with hues rotated by 60 degrees from the primary colors. 
+
 ![Slide 07](./cspace-07-HSLuv.jpg)
+
+And here are some tertiary colors, with hues rotated by 30 degrees from the secondary colors.  The name Pine was suggested to me by chatGPT. It originally suggested Ocean Green, but I asked it for something shorter. 
 
 
 
